@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+input.error {
+    border: 1px solid red; /*personalização mensagem de erro do formulário*/
+    background-color: #fdd;
+}
+
+html {
+    overflow-x: hidden; /*oculta a barra de rolagem no eixo x*/
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, 
+    rgb(5, 28, 158) 0%, 
+    rgb(63, 107, 250) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 7px 0;
+    border: none;
+    background-color: rgb(5, 151, 13);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.container {
+    height: 420px;
+    width: 450px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow-y: auto;
+}
+
+input{
+    height: 24px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #c9c8c8;
+    color: #000;
+    padding: 0 4px;
+    margin: 2px 0;
+}
+
+.form-campo {
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
